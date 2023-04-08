@@ -1,0 +1,1 @@
+# Doing simple galery slide with javascript

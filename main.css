@@ -1,0 +1,63 @@
+/** Fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
+**/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Montserrat:300,400,700&display=swap');
+
+/** General Settings **/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-font: 'Lato', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+    --primary-color: #186b2d;
+    --dark-color: #212121;
+    --general-transition: all .4s ease;
+}
+
+html {
+    font-size: 10px;
+    color: var(--dark-color);
+    font-family: var(--primary-font);
+    scroll-behavior: smooth;
+    overflow-x: hidden
+}
+
+h1 {
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 2rem;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 114rem;
+    height: 62.5rem;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+.content {
+    display: flex;
+}
